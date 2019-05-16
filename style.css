@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #ffcc66;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+    line-height: 100px;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto 0;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.container p {
+    margin: 0 0 20px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    background: royalblue;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc;
+    outline: 0;
+}
+
+#result {
+    text-align: center;
+}
